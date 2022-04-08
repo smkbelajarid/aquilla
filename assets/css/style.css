@@ -1,0 +1,1031 @@
+p,
+span {
+  font-family: "Raleway", sans-serif;
+}
+body#aquilla {
+  font-family: "Raleway", sans-serif;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.absolute-top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.absolute-top-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Tabs */
+#tabs-nav {
+  display: flex;
+  width: 100%;
+}
+#tabs-nav ul {
+  margin: 0;
+  padding: 10px;
+}
+
+#tabs-nav li {
+  font-size: 15px !important;
+  text-align: center;
+  display: inline-block;
+  background: #f1f1f1;
+  color: #fefefe;
+  width: 50%;
+  padding: 5px;
+}
+
+#tabs-nav a {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+#tabs-nav a h3 {
+  text-transform: none;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Active tab */
+
+#tabs-nav li.active {
+  background: #8a53ff;
+  color: #fff;
+}
+
+#tabs-nav li.active a {
+  color: inherit;
+}
+#tabs-content {
+  position: relative;
+  width: 100%;
+}
+#tabs-content .tabs-content {
+  position: relative;
+}
+
+.content-absolute-center {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content-absolute-center.top-content {
+  position: static;
+  padding-top: 60px !important;
+  padding-bottom: 40px !important;
+  transform: translate(10%, 0%);
+}
+
+.width-flower-top {
+  width: 200px;
+}
+
+.aquilla-title {
+  font-family: "Italianno", cursive;
+  font-size: 62px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8a53ff;
+  text-transform: capitalize;
+}
+
+.aquilla-title span {
+  position: relative;
+  font-family: "Italianno", cursive;
+  color: #8a53ff;
+  text-transform: capitalize;
+}
+
+.aquilla-title span:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #8a53ff;
+  top: 50%;
+  left: -80px;
+}
+
+.aquilla-title span:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #8a53ff;
+  top: 50%;
+  right: -80px;
+}
+/* font */
+/* font-family: 'Italianno', cursive;
+font-family: 'Raleway', sans-serif; */
+
+.aquilla-carousel {
+  position: relative;
+}
+
+.aquilla-carousel .carousel-inner {
+  position: relative;
+}
+
+.aquilla-carousel .carousel-inner:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100px;
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(153, 218, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* ff3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(153, 218, 255, 0)),
+    color-stop(100%, rgba(255, 255, 255, 1))
+  ); /* safari4+,chrome */
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(153, 218, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(
+    270deg,
+    rgba(153, 218, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* opera 11.10+ */
+  background: -ms-linear-gradient(
+    270deg,
+    rgba(153, 218, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* ie10+ */
+  background: linear-gradient(
+    180deg,
+    rgba(153, 218, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99DAFF', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+  bottom: 0;
+  left: 0;
+}
+
+.aquilla-carousel .carousel-indicators .active {
+  background-color: #8a53ff;
+}
+
+.aquilla-carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.aquilla-carousel .aquilla-wedding-header {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.aquilla-carousel .carousel-control {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: rgba(138, 83, 255, 0.3);
+}
+
+.aquilla-carousel .carousel-control img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aquilla-carousel .aquilla-wedding-header p {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.aquilla-carousel .aquilla-wedding-header p.name-title {
+  font-family: "Italianno", cursive;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8a53ff;
+}
+
+.aquilla-carousel .aquilla-wedding-header-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.aquilla-carousel .aquilla-wedding-header-content-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aquilla-background-flower-center {
+  background-image: url("../img/bg-2.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+.aquilla-content-white {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  position: relative;
+}
+
+.aquilla-content-white .image-male {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 7%;
+  top: 40%;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+
+.aquilla-content-white .image-female {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  right: 7%;
+  top: 40%;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+}
+
+.aquilla-content-white .aquilla-quote {
+  font-size: 26px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4e4e4e;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.aquilla-bottom-name {
+  background-color: #f1f1f1;
+}
+
+.aquilla-footer-section {
+  background-color: #a175ff;
+  text-align: center;
+}
+
+.aquilla-footer-section p {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aquilla-footer-section a {
+  color: #ffffff;
+}
+
+.aquilla-section3 {
+  background: #f1f1f1;
+  height: 740px;
+}
+/* .aquilla-section3.event2 {
+  height: 740px;
+} */
+
+.aquilla-section3 .relative {
+  position: relative;
+  height: 200px;
+}
+
+.aquilla-section3 .aquilla-background-flower-absolute.event2 {
+  height: 400%;
+  top: -30%;
+}
+.aquilla-section3 .aquilla-background-flower-absolute {
+  position: absolute;
+  height: 400%;
+  width: 100%;
+  left: 0;
+  top: -35%;
+  background-color: #fff;
+  background-image: url("../img/bg-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.aquilla-section3 .aquilla-background-flower-absolute-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aquilla-section3 .coundown-box {
+  padding: 0px 0px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.aquilla-section3 .coundown-box .timer-box:after {
+  content: ":";
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-weight: bold;
+}
+.aquilla-section3 .coundown-box .timer-box:last-child:after {
+  content: "";
+}
+.aquilla-section3 .coundown-box .timer {
+  color: #8a53ff;
+  font-size: 20px;
+  font-style: italic;
+}
+.aquilla-section3 .coundown-box .smalltext {
+  margin-top: -3px;
+}
+.aquilla-section3 .savethedate-box {
+  display: flex;
+  justify-content: center;
+}
+.aquilla-section3 .btn-savethedate {
+  background: #8a53ff;
+  color: #ffffff;
+  padding: 7px 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.aquilla-section3 .btn-savethedate i {
+  padding-right: 4px;
+}
+
+.guesbook_box {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  padding-bottom: 1em;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.guesbook_box .wpforms-container {
+  width: 500px;
+}
+.guesbook_box .wpforms-form .wpforms-submit-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.guesbook_box .wpforms-form input::placeholder,
+.guesbook_box .wpforms-form textarea::placeholder,
+.guesbook_box .wpforms-form select::placeholder {
+  color: #bbbbbb !important;
+}
+
+.guesbook_box .wpforms-form input:-ms-input-placeholder,
+.guesbook_box .wpforms-form textarea:-ms-input-placeholder,
+.guesbook_box .wpforms-form select:-ms-input-placeholder {
+  color: #bbbbbb !important;
+}
+
+.guesbook_box .wpforms-form input::-ms-input-placeholder,
+.guesbook_box .wpforms-form textarea::-ms-input-placeholder,
+.guesbook_box .wpforms-form select::-ms-input-placeholder {
+  color: #bbbbbb !important;
+}
+
+.guesbook_box .wpforms-form input,
+.guesbook_box .wpforms-form textarea,
+.guesbook_box .wpforms-form select {
+  color: #bbbbbb !important;
+  border: 1px solid #8a53ff !important;
+}
+.guesbook_box .wpforms-form .wpforms-submit-container button.wpforms-submit {
+  background: transparent;
+  margin-top: 1.5em;
+  padding: 10px 30px;
+  font-size: 14px;
+  color: #bbbbbb;
+  border: 1px solid #8a53ff;
+}
+
+.aquilla-qrcode-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+.aquilla-qrcode-box img {
+  width: 200px;
+}
+
+.aquilla-footer-section .btn-footer-aquilla {
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 0 rgba(134, 77, 255, 0.4);
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a175ff;
+  padding: 0.575rem 0.95rem;
+}
+
+.aquilla-footer-section-last {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #c6c6c6;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .aquilla-carousel .aquilla-wedding-header {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+
+  .aquilla-carousel .aquilla-wedding-header p {
+    font-size: 12px;
+  }
+
+  .aquilla-carousel .aquilla-wedding-header p.name-title {
+    font-size: 24px;
+  }
+
+  .aquilla-title {
+    font-size: 32px;
+  }
+
+  .aquilla-title span:before {
+    width: 30px;
+    left: -50px;
+  }
+
+  .aquilla-title span:after {
+    width: 30px;
+    right: -50px;
+  }
+
+  .aquilla-content-white .aquilla-quote {
+    font-size: 18px;
+  }
+
+  .aquilla-content-white .aquilla-quote-autor {
+    font-size: 12px;
+  }
+
+  .aquilla-background-flower-center {
+    background-size: cover;
+  }
+  .aquilla-section3 {
+    height: auto !important;
+  }
+  .aquilla-section3.event2 {
+    height: auto !important;
+  }
+  .aquilla-section3 .relative {
+    position: static;
+    height: auto;
+  }
+  .aquilla-section3 .aquilla-background-flower-absolute {
+    position: static;
+    height: auto !important;
+    width: 100%;
+  }
+
+  .aquilla-section3 .aquilla-background-flower-absolute-content {
+    position: static;
+    width: 100%;
+    padding-top: 110px !important;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0);
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+
+  .content-absolute-center {
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0);
+    text-align: center;
+  }
+  .content-absolute-center.top-content {
+    transform: translate(0%, 0);
+  }
+  .content-absolute-center.bottom-content {
+    margin-top: 3em;
+  }
+
+  .width-flower-top {
+    width: 100px;
+    z-index: -1;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .aquilla-carousel .aquilla-wedding-header {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  .aquilla-title {
+    font-size: 32px;
+  }
+  .aquilla-section3 {
+    height: 740px;
+  }
+  .aquilla-section3 .aquilla-background-flower-absolute {
+    position: static;
+    width: 100%;
+    height: 400%;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0);
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+  .content-absolute-center {
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0);
+    text-align: center;
+  }
+  .content-absolute-center.top-content {
+    transform: translate(0%, 0%);
+  }
+  .content-absolute-center.bottom-content {
+    margin-top: 3em;
+  }
+  .width-flower-top {
+    width: 100px;
+    z-index: -1;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .aquilla-carousel .aquilla-wedding-header {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  .aquilla-title {
+    font-size: 32px;
+  }
+  .aquilla-section3 {
+    height: 740px;
+  }
+  .aquilla-section3 .aquilla-background-flower-absolute {
+    position: absolute;
+    height: 400%;
+    width: 100%;
+    left: 0;
+    top: -35%;
+    background-color: #fff;
+    background-image: url("../img/bg-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1200px) {
+  .aquilla-content-white .image-male {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    z-index: +1;
+    transform: translateX(-90%);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+  }
+
+  .aquilla-content-white .image-female {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 50%;
+    top: 120px;
+    transform: translateX(90%);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+  }
+
+  .aquilla-content-white .aquilla-quote {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4e4e4e;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 150px !important;
+  }
+}
+
+/* My Css */
+/* ==================== cover ===================== */
+#cover {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cover-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 7px 7px;
+  border-style: double;
+  border-color: #dfba53;
+}
+
+.cover-content {
+  text-align: center;
+}
+
+.cover-content h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cover-ornamnet-atas img {
+  width: 200px;
+  padding-top: 30px;
+}
+
+.cover-ornamnet-bawah img {
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.text-dari {
+  font-family: "Open Sans", sans-serif;
+  color: #aaa;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.text-untuk {
+  font-family: "Raleway", sans-serif;
+  color: #c7ae65;
+  font-size: 22px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.cover-content span {
+  color: #aaa;
+}
+
+#btn-cover {
+  border: none;
+  background: #dfba53;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+/* ======================== akhir cover ======================== */
+/* ======================== video  ======================== */
+#video {
+  padding: 30px 0px;
+}
+.video-container {
+  height: 800px;
+}
+/* ======================== akhir video  ======================== */
+/* ======================== protokol ======================== */
+#protokol {
+  background-color: #e5e5e5;
+  margin: 0;
+  margin-top: 30px;
+  padding: 40px 15px;
+}
+
+.container-protokol h4 {
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #111111;
+}
+.container-protokol p,
+.container-protokol span {
+  color: #626262;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.img-protokol {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.container-acara {
+  margin: 0;
+  margin-top: 30px;
+  padding: 40px;
+}
+/* ======================== akhir protokol ======================== */
+/* ======================== waktu ======================== */
+.waktu-pernikahan p,
+.waktu-resepsi p {
+  font-family: "Italianno", cursive;
+  text-align: center;
+  color: #8a53ff;
+  text-transform: capitalize;
+  font-size: 32px;
+}
+
+.alamat-acara {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 14px !important;
+  color: #626262 !important;
+}
+
+.waktu-box::after,
+.waktu-box::after,
+.waktu-box::after {
+  content: ":";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.waktu span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #a175ff;
+  font-style: italic;
+}
+
+.waktu div {
+  color: #666666;
+  font-weight: 400;
+}
+
+
+/* ======================== akhir waktu ======================== */
+/* ======================== gallery ======================== */
+#gallery {
+  padding: 30px 0px;
+}
+
+.img-gallery {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.carousel__track,
+.fancybox__counter,
+.fancybox__button--thumbs,
+/* .fancybox__button--slideshow, */
+.fancybox__button--fullscreen,
+.fancybox__button--zoom {
+  display: none !important;
+}
+/* ======================== akhir gallery ======================== */
+/* ======================== maps ======================== */
+#btn-pernikahan,
+#btn-resepsi {
+  border-radius: 0px;
+}
+
+#maps {
+  position: relative;
+}
+.maps h2 {
+  padding: 30px 0px;
+}
+.btn-maps {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, 0);
+  box-shadow: 0 10px 20px 0 rgb(161 117 255 / 40%);
+  background-color: #a175ff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0.575rem 0.95rem;
+  height: auto;
+  border-radius: 4px;
+}
+.btn-maps:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid;
+}
+
+.maps-container {
+  width: 100%;
+  height: 500px;
+}
+/* ======================== akhir maps ======================== */
+/* ======================== separator ======================== */
+#separator h2 {
+  margin: 0;
+  margin-top: 30px;
+}
+/* ======================== akhir separator ======================== */
+/* ======================== gift ======================== */
+#gift {
+  margin: 0;
+  margin-top: 30px;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.img-qr {
+  width: 200px;
+}
+/* ======================== akhir gift ======================== */
+/* ======================== buku tamu ======================== */
+#buku-tamu {
+  padding: 40px 0px;
+}
+
+#nama,
+#pesan,
+#kehadiran,
+.btn-tamu {
+  border-radius: 2px;
+  border: 1px solid #a175ff;
+}
+/* ======================== akhir buku tamu ======================== */
+/* ======================== audio ======================== */
+#audio {
+  margin: 0;
+  margin-top: 30px;
+  padding: 30px 0px;
+}
+/* ======================== akhir audio ======================== */
+#footer {
+  font-weight: bold;
+  margin: 0;
+  background-color: #a175ff;
+  padding: 40px;
+  color: white;
+}
+
+#footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+#footer .btn-footer {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: #a175ff;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px 0 rgb(134 77 255 / 40%);
+  padding: 0.575rem 0.95rem;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#footer-socet {
+  padding: 10px;
+  color: #111111;
+  text-align: center;
+  font-weight: bold;
+}
+#footer-socet p {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .video-container {
+    height: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .img-protokol {
+    width: 30px;
+    height: 30px;
+  }
+
+  .video-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img-protokol {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  #protokol span {
+    font-size: 13px;
+  }
+
+  .video-container {
+    height: 200px;
+  }
+  .aquilla-title span::before,
+  .aquilla-title span::after {
+    display: none;
+  }
+}
